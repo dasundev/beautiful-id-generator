@@ -34,7 +34,7 @@ UserIdGenerator::generate("DasunDev");
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
+This package is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
 ## Buy Me A Coffee! :coffee:
 If you can contribute with a donation or you want to, feel free to do it at [Buy me a coffee!](https://www.buymeacoffee.com/dasundev)☕, I will be really thankfull for anything even if it is a coffee or just a kind comment towards my work, because that helps me a lot. Whenever you contribute with a donation, I will read your message and it will be shown in my main site.
