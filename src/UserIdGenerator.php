@@ -7,13 +7,23 @@
  * Time: 11:10 AM
  ***************************************/
 
+declare(strict_types=1);
 
 namespace Dasundev\BeautifulIdGenerator;
 
 
+/**
+ * Class UserIdGenerator
+ * @package Dasundev\BeautifulIdGenerator
+ */
 class UserIdGenerator
 {
-    public function generate($name): string
+    /**
+     * User Id generator
+     * @param $name
+     * @return string
+     */
+    public static function generate($name): string
     {
         return substr($name,0, 1).strtoupper(uniqid());
     }

@@ -10,8 +10,21 @@
         {
             "name": "Dasun Tharanga",
             "email": "dasuntharangaflash@gmail.com"
+        },
+        {
+            "name": "Hashemi Rafsan",
+            "email": "rafsanhashemi@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dasundev\\BeautifulIdGenerator\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "5.2.x-dev",
+        "phpunit/phpunit": "9.4.x-dev"
+    }
 }

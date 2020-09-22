@@ -7,13 +7,21 @@
  * Time: 11:35 AM
  ***************************************/
 
+declare(strict_types=1);
 
 namespace Dasundev\BeautifulIdGenerator;
 
-
+/**
+ * Class InvoiceIdGenerator
+ * @package Dasundev\BeautifulIdGenerator
+ */
 class InvoiceIdGenerator
 {
-    public function generate(): string
+    /**
+     * Generate Invoice ID
+     * @return string
+     */
+    public static function generate(): string
     {
         return strtoupper('INVOICE'.date('Ymd').uniqid());
     }

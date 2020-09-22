@@ -7,13 +7,22 @@
  * Time: 11:40 AM
  ***************************************/
 
+declare(strict_types=1);
 
 namespace Dasundev\BeautifulIdGenerator;
 
 
+/**
+ * Class OrderIdGenerator
+ * @package Dasundev\BeautifulIdGenerator
+ */
 class OrderIdGenerator
 {
-    public function generate(): string
+    /**
+     * Generate ORDER ID
+     * @return string
+     */
+    public static function generate(): string
     {
         return strtoupper('ORDER'.date('Ymd').uniqid());
     }

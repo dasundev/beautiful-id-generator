@@ -14,21 +14,20 @@ composer require dasundev/beautiful-id-generator
 
 ```php
 //import
-use Dasundev\BeautifulIdGenerator\InvoiceIdGenerator;
-use Dasundev\BeautifulIdGenerator\OrderIdGenerator;
-use Dasundev\BeautifulIdGenerator\UserIdGenerator;
+use Dasundev\BeautifulIdGenerator\{
+    InvoiceIdGenerator,
+    OrderIdGenerator,
+    UserIdGenerator
+};
 
 //get invoice id
-$invoiceIdGenerator = new InvoiceIdGenerator();
-$invoiceIdGenerator->generate();
+InvoiceIdGenerator::generate();
 
 //get order id
-$orderIdGenerator = new OrderIdGenerator();
-$orderIdGenerator->generate();
+OrderIdGenerator::generate();
 
 //get user id
-$userIdGenerator = new UserIdGenerator();
-$userIdGenerator->generate();
+UserIdGenerator::generate("DasunDev");
 ```
 
 ## Contributing
